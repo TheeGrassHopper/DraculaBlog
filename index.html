@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Blogger</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<script src="libs/jquery-1.11.1.js"></script>
+
+ 	<script src="libs/handlebars-v1.3.0.js"></script>
+
+ 	<script src="libs/ember.js"></script>
+
+ 	<script src="libs/ember-handlebars-loader-0.0.1.js"></script>
+
+	<script src="blogger.js"></script>
+
+	<script src="router.js"></script>
+	
+	<!-- we add our controller Action to our ndex.html in the JavaScript script tag. -->	
+	<script src="controllers/about.js"></script>
+
+	<script src="controllers/contact.js"></script>
+
+	<script>
+
+	EmberHandlebarsLoader.loadTemplates(['posts', 'about', 'contact', 'phone', 'email', 'application']);
+	</script>
+<body>
+	
+</body>
+</html>
